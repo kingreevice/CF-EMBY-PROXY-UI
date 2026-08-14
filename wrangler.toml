@@ -21,3 +21,9 @@ crons = ["0 * * * *"]
 binding = "EMBY_DATA" # 代码中调用该 KV 的变量名
 id = "e3d185932dea4b45bd40520154db227e" # 你的 KV 命名空间 ID (请替换为实际的 32 位字母数字组合)
 
+# D1 数据库绑定声明 (D1 Database Binding)
+[[d1_databases]]
+binding = "DB" # 代码中调用该数据库的变量名
+database_name = "emby_proxy_logs" # 你的 D1 数据库的名称
+database_id = "c031fb07-52b5-4892-8c92-51bc3c2944d5" # 你的 D1 数据库 ID (请替换为实际的 UUID 格式)
+
