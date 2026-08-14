@@ -25,5 +25,5 @@ id = "e3d185932dea4b45bd40520154db227e" # 你的 KV 命名空间 ID (请替换�
 [[d1_databases]]
 binding = "DB" # 代码中调用该数据库的变量名
 database_name = "emby_proxy_logs" # 你的 D1 数据库的名称
-database_id = "c031fb07-52b5-4892-8c92-51bc3c2944d5" # 你的 D1 数据库 ID (请替换为实际的 UUID 格式)
+database_id = "240d5419-7b3f-4c75-9a4c-1e55a407d94c" # 你的 D1 数据库 ID (请替换为实际的 UUID 格式)
 
